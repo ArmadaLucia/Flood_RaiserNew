@@ -3,7 +3,12 @@ guid: 14577e0dd9820435fb6f47100ead05e0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - fx: {fileID: 11400000, guid: ac2dd52765ea145da8bc53fd89bf305e, type: 2}
+  - rb: {fileID: 6331334471548058859, guid: d1d5afe2193cc455abfebc55e7f1c2dd, type: 3}
+  - GameOver: {fileID: 3001678819956649292, guid: bb69234ee124d4ea4ac05ad6d21f2146,
+      type: 3}
+  - Tsunami: {fileID: 56146474051180054, guid: 2e6e77fe21c8f4f559be94ed661e40f4, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -17,8 +17,6 @@ public class PlasmaGun : MonoBehaviour
     public GameObject Note;
     public Rigidbody rigid;
 
-    public LayerMask mask;
-
     // Update is called once per frame
     void Update()
     {
@@ -51,7 +49,7 @@ public class PlasmaGun : MonoBehaviour
             //out hit calls up the ray to give away that it hit something
             //range will here say that after 100f the ray will disapear into the air
             RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, mask))
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
             {
                 Debug.Log(hit.transform.name);
 
@@ -67,6 +65,12 @@ public class PlasmaGun : MonoBehaviour
                 if (hit.collider.tag == "OpalBlock" && hit.rigidbody != null)
                 {
                     hit.rigidbody.AddForce(-hit.normal * ImpactForce);
+                }
+
+                 if (hit.collider.tag == "HangOpalblock" && hit.rigidbody != null)
+                {
+                Debug.Log("Gravity On");
+                hit.rigidbody.useGravity = true;
                 }
 
                 if (hit.collider.tag == "Note")

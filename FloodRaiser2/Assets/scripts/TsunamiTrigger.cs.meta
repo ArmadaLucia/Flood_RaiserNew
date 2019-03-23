@@ -3,7 +3,9 @@ guid: 4012327cb48074f7890b5bcd830fe5ee
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Tsunami: {fileID: 56146474051180054, guid: 2e6e77fe21c8f4f559be94ed661e40f4, type: 3}
+  - Water: {fileID: 260014572777277493, guid: 93e5f4ef053f34f78a91db1ba83782cb, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

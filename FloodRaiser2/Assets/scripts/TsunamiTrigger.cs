@@ -6,7 +6,7 @@ public class TsunamiTrigger : MonoBehaviour
 {
 
     public GameObject Tsunami;
-    public ConstantMovement Water;
+    public ConstantForce Water;
 
     void OnTriggerEnter(Collider trig)
     {
@@ -14,6 +14,13 @@ public class TsunamiTrigger : MonoBehaviour
         {
             Debug.Log("Tsunami Triggered!");
             Tsunami.SetActive(true);
+
+            Water.enabled = true;
+
+            /*
+            var myobj = FindObjectOfType<ConstantMovement>();
+            myobj.enabled = true;
+            */
         }
     }
 }

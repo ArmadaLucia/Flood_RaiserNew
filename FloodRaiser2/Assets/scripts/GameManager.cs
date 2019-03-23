@@ -1,11 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
-    void EndGame ()
+    bool gameHasEnded = false;
+
+    public void EndGame ()
     {
-        Debug.Log("Game Over");
+        if (gameHasEnded == false)
+        {
+            gameHasEnded = true;
+            Debug.Log("Game Over Manager");
+        }
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - GlassCube
   - OpalBlock
   - Note
+  - HangOpalblock
+  - GameOver
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - PostProcessing
   - Tsunami
   - Bullet
-  - 
+  - Wall
   - 
   - 
   - 

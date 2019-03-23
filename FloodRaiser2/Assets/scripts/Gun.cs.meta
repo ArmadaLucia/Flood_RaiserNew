@@ -3,7 +3,15 @@ guid: 31194e75551274e088609f8ed6fc9404
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - fpsCam: {fileID: 7100201464318351532, guid: 0f77731ecb6034477973cb6a82b36901,
+      type: 3}
+  - DustColors: {fileID: 198921932544985090, guid: 429ffd4f7b09c432ca9889ecc0929eda,
+      type: 3}
+  - BollBullet: {fileID: 198182663870401752, guid: 45a859253b9f04ab786804a8cf420e92,
+      type: 3}
+  - impactEffect: {fileID: 1653333448202692, guid: 215939575ba2e43c7bb831fc96de240f,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
