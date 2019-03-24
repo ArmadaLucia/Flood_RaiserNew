@@ -8,7 +8,7 @@ TerrainLayer:
   m_PrefabAsset: {fileID: 0}
   m_Name: layer_searockysand(3.000,3.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000
   m_DiffuseTexture: {fileID: 2800000, guid: dc421d1e00cae42ec8e8e37ba242128e, type: 3}
-  m_NormalMapTexture: {fileID: 0}
+  m_NormalMapTexture: {fileID: 2800000, guid: 3dfe8b9fdcfeb453a9ad41d59bc5efb8, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 3, y: 3}
   m_TileOffset: {x: 0, y: 0}

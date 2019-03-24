@@ -8,7 +8,7 @@ TerrainLayer:
   m_PrefabAsset: {fileID: 0}
   m_Name: layer_waterblue(20.000,100.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000
   m_DiffuseTexture: {fileID: 2800000, guid: 909eaaf5fd96947c69c2579a3c9b89b8, type: 3}
-  m_NormalMapTexture: {fileID: 0}
+  m_NormalMapTexture: {fileID: 2800000, guid: 3dfe8b9fdcfeb453a9ad41d59bc5efb8, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 20, y: 100}
   m_TileOffset: {x: 0, y: 0}

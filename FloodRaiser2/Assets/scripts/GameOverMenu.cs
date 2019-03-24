@@ -9,4 +9,9 @@ public class GameOverMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void ReturnMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
